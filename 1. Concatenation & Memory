@@ -1,0 +1,9 @@
+// Concatenation = When you put a string and numeric value together, using the plus operator. 
+
+
+
+/* There are 2 types of memory:
+
+- Stack = Faster
+
+- Heap = Slower, more dynamic (complex objects are always stored in the Heap)
