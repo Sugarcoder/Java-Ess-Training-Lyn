@@ -1,0 +1,32 @@
+public class Main {
+	
+	public static void main(String[] args) {
+		String s1 = "Welcome to California!";
+		String s2 = new String("WELCOME to California!");        // Constructor method
+		System.out.println(s1);
+		System.out.println(s2);     
+		
+		
+		// Use the 'equals' operator instead of ==.
+		// If you use 'equalsIgnoreCase', it will ignore any uppercases (ex. "WELCOME to California")
+		
+		
+		if(s1.equalsIgnoreCase(s2)) {                            
+			System.out.println("They match!");            
+		}
+		else {
+			System.out.println("They don't match!");
+		}
+		
+		
+		// This will spell out each letter in the sentence. 
+		
+		char[] chars = s1.toCharArray();
+		
+		for (char c : chars) {
+			System.out.println(c);
+		}
+		
+	}
+	
+}
