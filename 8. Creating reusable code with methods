@@ -1,0 +1,19 @@
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		peopleWithIssues();
+		
+		int top = 10; 
+		
+		for (int i = 0; i < top; i++) {
+			System.out.println("The value is " + i);
+		}
+		
+	}
+	
+	private static void peopleWithIssues() {
+		System.out.println("I always encounter people with issues.");
+	}
+	
+}
