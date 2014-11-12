@@ -1,0 +1,21 @@
+public class Main {
+	
+	public static void main(String[] args) {
+		String s1 = "Welcome";
+		StringBuilder sb = new StringBuilder(s1);   
+		
+		sb.append(" to California!");
+		
+		System.out.println(sb);
+	}
+}
+
+
+// insert method = insert text into a string
+
+// append method = append text into a string
+
+// StringBuilder takes less memory, but only good in single-threaded environments. 
+
+// StringBuffer takes more memory, for multi-threaded environments. 
+
