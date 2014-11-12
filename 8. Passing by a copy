@@ -1,0 +1,4 @@
+/* Passing by a copy 
+- In Java, variables are always passed by a copy!
+- When a variable is passed to a function, a copy is made. 
+*/
