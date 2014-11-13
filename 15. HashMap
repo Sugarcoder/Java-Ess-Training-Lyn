@@ -1,0 +1,44 @@
+import java.util.HashMap;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		// HashMap = Storing unordered data collection in Japa applications
+		
+		// HashMap is designed to store data all of the same type. 
+		// Each item in the Hashmap has their own key and value.   
+		
+		HashMap<String, String> map = new HashMap<String, String>();
+		
+		map.put("California", "Sacramento");
+		map.put("Oregon",  "Salem");
+		map.put("Washington", "Olympia");
+		
+		System.out.println(map);
+		
+		
+		// HashMaps are resizeable at runtime. 
+		
+		map.put("Alaska", "Juneau");
+		
+		System.out.println(map);
+		
+		
+		
+		// To find an item in the map (refer to the key): 
+		
+		String cap = map.get("Oregon");
+		
+		System.out.println("The capital of Oregon is " + cap);
+		
+		
+		
+		// To remove an item from HashMap: 
+		
+		map.remove("California");
+		
+		System.out.println(map);
+		
+	}
+}
