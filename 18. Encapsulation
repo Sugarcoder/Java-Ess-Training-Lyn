@@ -1,0 +1,13 @@
+/* Encapsulation
+- packaging of complex functionality to make it easier to use in an application.
+- Accss to individual functions may be restricted. 
+- Encapsulated data may be hidden. 
+
+- Use custom classes to wrap and maintain complex codes. 
+
+
+Benefits: 
+- Breaking functiinality into small, maintainable units 
+- Grouping functions and data together
+- Supporting testing of software at a granular level
+*/
