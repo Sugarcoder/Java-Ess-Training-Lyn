@@ -1,0 +1,9 @@
+/* Packages 
+ 
+- They are like groups 
+- When you create a package, it creates a folder on your computer. 
+- If class files are moved to a package, 
+  the 'default package' needs to state the new package naem on top. 
+  The class files will show 'import...' on top. 
+
+*/
