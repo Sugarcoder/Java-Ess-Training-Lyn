@@ -1,0 +1,19 @@
+/* Inheritance:
+
+- Relationship between multiple classes. 
+
+- Allows functionality to be extended from once class to many.
+
+- In Java, there is only single inheritance (C++ has multiple inheritance).
+
+
+
+
+Polymorphism:
+
+- An ability to be dealt with as either subclass or superclass. 
+
+- When instantiating a subclass, you can declare it as a superclass type. 
+  When a method requires a superclass, you can pass the subclass object.
+  
+  */
