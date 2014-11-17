@@ -1,0 +1,28 @@
+public int getOil() {
+	return oil;
+}
+
+public void setOil(int oil) {
+	this.oil = oil;
+}
+
+
+// When you're passing it...
+
+public Olive(int oil) {
+	setOil(oil);
+}
+
+
+/*********************/ 
+
+
+private int totalOil = 0; 
+
+public int getTotalOil() {
+	return totalOil;
+}
+
+private void setTotalOil(int totalOil) {
+	this.totalOil += totalOil;
+}
