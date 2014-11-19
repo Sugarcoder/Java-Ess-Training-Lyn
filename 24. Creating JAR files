@@ -1,0 +1,14 @@
+/* JAR = Java archive file
+   A compressed file in zip format that contains compiled Java classes, but has a file extension .jar
+
+
+Purpose of JAR files: packages up the application for deployment. 
+
+
+To create a JAR file: File > Export > Java > JAR file (select all class files, not Eclipse configuration files though)
+Select "Compress JAR files"
+
+
+Manifest file: a text file that is automatically included in the JAR.
+
+*/
