@@ -1,0 +1,6 @@
+// To run the app in cmd: java -classpath .; CupcakeApp.jar com.sugarcoder.cupcake.Main
+
+
+// set CLASSPATH=.;CupcakeApp.jar 
+
+// java com.sugarcoder.cupcake.Main  (The app should run now.)
